@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
+    <title>Take the Pledge!</title>
   </head>
   <body>
 
@@ -19,48 +20,57 @@
       <div id="navigation">
 
         <div id="logo">
-          <a href="">LOGO</a>
+          <p>LOGO</p>
         </div>
 
-        <div id="links">
-          <a href="">FAQ</a>
-          <a href="">Generic Schedule</a>
-          <a href="">Generic Text</a>
-        </div>
+        <a class="link" href="">FAQ</a>
+        <a class="link" href="">Generic Schedule</a>
+        <a class="link" href="">Generic Text</a>
 
       </div>
 
       <!-- this is the form -->
       <div id="form-area">
-        <p>Text Everyday, Everything, Everywhere and your generic text full-funded Text</p>
 
-        <a id="info" href="#">i</a>
+        <div id="main-p">
+          <p>Text <b>Everyday, Everything, Everywhere</b> and your generic text <b>full-funded Text</b></p>
+        </div>
 
-        <input type="email" name="email-address" value="Email address">
 
-        <select id="districtList">
-          <option value="1">Select your District <img src="assets/downarrow.png" alt="downarrow"></option>
-          <option value="2">District 1</option>
-          <option value="3">District 2</option>
-          <option value="4">District 3</option>
-          <option value="5">District 4</option>
-          <option value="6">District 5</option>
-          <option value="7">District 6</option>
-          <option value="8">District 7</option>
-          <option value="9">District 8</option>
-          <option value="10">District 9</option>
-          <option value="11">District 10</option>
-        </select>
+        <div id="email-input" class="form-line">
+          <input type="email" name="email-address" value="Email address">
+        </div>
 
-        <button type="button" name="button">GO</button>
+        <div id="district-list" class="form-line">
+          <select>
+            <option value="1">Select your District</option>
+            <option value="2">District 1</option>
+            <option value="3">District 2</option>
+            <option value="4">District 3</option>
+            <option value="5">District 4</option>
+            <option value="6">District 5</option>
+            <option value="7">District 6</option>
+            <option value="8">District 7</option>
+            <option value="9">District 8</option>
+            <option value="10">District 9</option>
+            <option value="11">District 10</option>
+          </select>
+        </div>
 
-        <input type="checkbox" name="opt-in" value="">
+        <div id="form-button" class="form-line">
+          <p>GO</p>
+        </div>
+
+        <div id="opt-in-line" class="form-line">
+          <p><input type="checkbox" name="opt-in" value=""> I'd like to receive updates from Generic Text about this program</p>
+        </div>
+
       </div>
 
     </div>
 
     <!-- this is the bottom half -->
-    <div class="bottom-background">
+    <div id="bottom-background">
 
       <!-- this is the total count of pledges -->
       <div id="left-side">
@@ -71,11 +81,13 @@
 
       <!-- this is the divider -->
       <div id="divider">
+        <div id="line"></div>
         <img src="assets/recycle-circle.png" alt="recycle-circle">
       </div>
 
       <!-- this is the leaderboard -->
       <div id="leaderboard">
+        <p>LEADERBOARD</p>
         <div class="leaderboard-slot">
           <div class="district-label">District 1</div>
           <div class="progress-bar"></div>
