@@ -246,7 +246,7 @@ select {
 }
 
 .progress-bar {
-  width: 4rem;
+  width: 5.5rem;
   background-color: #004B8E;
   border-top-right-radius: .2rem;
   border-bottom-right-radius: .2rem;
